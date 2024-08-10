@@ -228,12 +228,13 @@ function Home() {
                         (gallery) => gallery.src
                       )}
                       className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
-                      children={<></>}
                       overlay={true}
                       overlayClassName=""
                       autoplay={true}
                       direction="up"
-                    />
+                    >
+                      -
+                    </ImagesSlider>
                   )}
                   <div className="h-full flex flex-col justify-between order-2 lg:order-1">
                     <div className="space-y-2">
@@ -276,13 +277,14 @@ function Home() {
                       images={item.related_galleries.map(
                         (gallery) => gallery.src
                       )}
-                      children={<></>}
                       overlay={true}
                       overlayClassName=""
                       autoplay={true}
                       direction="up"
                       className="order-1 lg:order-2 w-full h-[300px] lg:w-full lg:h-full"
-                    />
+                    >
+                      -
+                    </ImagesSlider>
                   )}
                   <div className="h-full flex flex-col justify-between order-2 lg:order-1">
                     <div className="space-y-2">
@@ -332,13 +334,14 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
-                        children={<></>}
                         overlay={true}
                         overlayClassName=""
                         autoplay={true}
                         direction="up"
                         className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
-                      />
+                      >
+                        -
+                      </ImagesSlider>
                     )}
                     <div className="p-4">
                       <div className="text-xs xl:text-lg font-normal">
@@ -373,13 +376,14 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
-                        children={<></>}
                         overlay={true}
                         overlayClassName=""
                         autoplay={true}
                         direction="up"
                         className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
-                      />
+                      >
+                        -
+                      </ImagesSlider>
                     )}
                     <div className="p-4">
                       <div className="text-xs xl:text-lg font-normal">
@@ -431,13 +435,14 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
-                    children={<></>}
                     overlay={true}
                     overlayClassName=""
                     autoplay={true}
                     direction="up"
                     className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
-                  />
+                  >
+                    -
+                  </ImagesSlider>
                 )}
               </div>
             ))}
@@ -461,13 +466,14 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
-                    children={<></>}
                     overlay={true}
                     overlayClassName=""
                     autoplay={true}
                     direction="up"
                     className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
-                  />
+                  >
+                    -
+                  </ImagesSlider>
                 )}
               </div>
             ))}
