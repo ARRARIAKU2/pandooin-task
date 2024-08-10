@@ -309,8 +309,11 @@ function Home() {
           <div className="flex items-center gap-4 xl:gap-8 w-full overflow-x-auto">
             <div className="flex flex-nowrap space-x-4 xl:space-x-8">
               {Array.isArray(data) &&
-                data.map((item) => (
-                  <div className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between">
+                data.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between"
+                  >
                     {Array.isArray(item.related_galleries) && (
                       <ImagesSlider
                         images={item.related_galleries.map(
@@ -342,8 +345,11 @@ function Home() {
                   </div>
                 ))}
               {Array.isArray(data) &&
-                data.map((item) => (
-                  <div className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between">
+                data.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between"
+                  >
                     {Array.isArray(item.related_galleries) && (
                       <ImagesSlider
                         images={item.related_galleries.map(
@@ -472,7 +478,7 @@ function Home() {
           {Array.isArray(article) &&
             article.map((item, index) =>
               index === 0 ? (
-                <div className="row-span-2 w-full h-[690px]">
+                <div key={index} className="row-span-2 w-full h-[690px]">
                   <Image
                     src={item.featured_image}
                     alt="Zamrood by Pandooin"
@@ -486,7 +492,10 @@ function Home() {
                   </div>
                 </div>
               ) : (
-                <div className="col-span-1 row-span-1 h-auto xl:h-[340px]">
+                <div
+                  key={index}
+                  className="col-span-1 row-span-1 h-auto xl:h-[340px]"
+                >
                   <Image
                     src={item.featured_image}
                     alt="Zamrood by Pandooin"
