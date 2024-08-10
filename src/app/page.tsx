@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
 import { useEffect, useState, useRef, useCallback } from "react";
-import { ImagesSlider } from "@/components/ui/image-slider";
 
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
