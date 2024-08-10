@@ -222,20 +222,14 @@ function Home() {
                   key={index}
                   className="grid grid-cols-1 lg:grid-cols-2 py-8 xl:py-20 gap-4 xl:gap-8"
                 >
-                  {Array.isArray(item.related_galleries) && (
-                    <ImagesSlider
-                      images={item.related_galleries.map(
-                        (gallery) => gallery.src
-                      )}
-                      className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
-                      overlay={true}
-                      overlayClassName=""
-                      autoplay={true}
-                      direction="up"
-                    >
-                      -
-                    </ImagesSlider>
-                  )}
+                  <Image
+                    src={item.related_galleries[0].src}
+                    alt="Zamrood by Pandooin"
+                    className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                    width={536}
+                    height={374}
+                    priority
+                  />
                   <div className="h-full flex flex-col justify-between order-2 lg:order-1">
                     <div className="space-y-2">
                       <div className="text-lg font-normal">
@@ -272,20 +266,14 @@ function Home() {
                   key={index}
                   className="grid grid-cols-1 lg:grid-cols-2 py-8 xl:py-20 gap-4 xl:gap-8"
                 >
-                  {Array.isArray(item.related_galleries) && (
-                    <ImagesSlider
-                      images={item.related_galleries.map(
-                        (gallery) => gallery.src
-                      )}
-                      overlay={true}
-                      overlayClassName=""
-                      autoplay={true}
-                      direction="up"
-                      className="order-1 lg:order-2 w-full h-[300px] lg:w-full lg:h-full"
-                    >
-                      -
-                    </ImagesSlider>
-                  )}
+                  <Image
+                    src={item.related_galleries[0].src}
+                    alt="Zamrood by Pandooin"
+                    className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                    width={536}
+                    height={374}
+                    priority
+                  />
                   <div className="h-full flex flex-col justify-between order-2 lg:order-1">
                     <div className="space-y-2">
                       <div className="text-lg font-normal">
@@ -329,20 +317,14 @@ function Home() {
                     key={index}
                     className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between"
                   >
-                    {Array.isArray(item.related_galleries) && (
-                      <ImagesSlider
-                        images={item.related_galleries.map(
-                          (gallery) => gallery.src
-                        )}
-                        overlay={true}
-                        overlayClassName=""
-                        autoplay={true}
-                        direction="up"
-                        className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
-                      >
-                        -
-                      </ImagesSlider>
-                    )}
+                    <Image
+                      src={item.related_galleries[0].src}
+                      alt="Zamrood by Pandooin"
+                      className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                      width={536}
+                      height={374}
+                      priority
+                    />
                     <div className="p-4">
                       <div className="text-xs xl:text-lg font-normal">
                         {item.itinerary_day} DAYS {item.itinerary_day - 1} NIGHT
@@ -371,20 +353,14 @@ function Home() {
                     key={index}
                     className="flex-shrink-0 w-[150px] xl:w-[300px] bg-white border rounded-lg shadow-lg flex flex-col h-[450px] xl:justify-between"
                   >
-                    {Array.isArray(item.related_galleries) && (
-                      <ImagesSlider
-                        images={item.related_galleries.map(
-                          (gallery) => gallery.src
-                        )}
-                        overlay={true}
-                        overlayClassName=""
-                        autoplay={true}
-                        direction="up"
-                        className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
-                      >
-                        -
-                      </ImagesSlider>
-                    )}
+                    <Image
+                      src={item.related_galleries[0].src}
+                      alt="Zamrood by Pandooin"
+                      className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                      width={536}
+                      height={374}
+                      priority
+                    />
                     <div className="p-4">
                       <div className="text-xs xl:text-lg font-normal">
                         {item.itinerary_day} DAYS {item.itinerary_day - 1} NIGHT
@@ -430,20 +406,14 @@ function Home() {
           {Array.isArray(data) &&
             data.map((item, index) => (
               <div key={index}>
-                {Array.isArray(item.related_galleries) && (
-                  <ImagesSlider
-                    images={item.related_galleries.map(
-                      (gallery) => gallery.src
-                    )}
-                    overlay={true}
-                    overlayClassName=""
-                    autoplay={true}
-                    direction="up"
-                    className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
-                  >
-                    -
-                  </ImagesSlider>
-                )}
+                <Image
+                  src={item.related_galleries[0].src}
+                  alt="Zamrood by Pandooin"
+                  className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                  width={536}
+                  height={374}
+                  priority
+                />
               </div>
             ))}
         </div>
@@ -461,20 +431,14 @@ function Home() {
           {Array.isArray(data) &&
             data.map((item, index) => (
               <div key={index}>
-                {Array.isArray(item.related_galleries) && (
-                  <ImagesSlider
-                    images={item.related_galleries.map(
-                      (gallery) => gallery.src
-                    )}
-                    overlay={true}
-                    overlayClassName=""
-                    autoplay={true}
-                    direction="up"
-                    className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
-                  >
-                    -
-                  </ImagesSlider>
-                )}
+                <Image
+                  src={item.related_galleries[0].src}
+                  alt="Zamrood by Pandooin"
+                  className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                  width={536}
+                  height={374}
+                  priority
+                />
               </div>
             ))}
         </div>
