@@ -262,7 +262,10 @@ function Home() {
                   </div>
                 </div>
               ) : (
-                <div className="grid grid-cols-1 lg:grid-cols-2 py-8 xl:py-20 gap-4 xl:gap-8">
+                <div
+                  key={index}
+                  className="grid grid-cols-1 lg:grid-cols-2 py-8 xl:py-20 gap-4 xl:gap-8"
+                >
                   {Array.isArray(item.related_galleries) && (
                     <ImagesSlider
                       images={item.related_galleries.map(
