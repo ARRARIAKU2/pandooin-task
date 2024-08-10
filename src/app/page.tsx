@@ -481,13 +481,16 @@ function Home() {
           {Array.isArray(article) &&
             article.map((item, index) =>
               index === 0 ? (
-                <div key={index} className="row-span-2 w-full h-[690px]">
+                <div
+                  key={index}
+                  className="row-span-2 w-full xl:w-[600px] h-[690px]"
+                >
                   <Image
                     src={item.featured_image}
                     alt="Zamrood by Pandooin"
-                    className="h-full w-full xl:w-[536px]"
-                    width={540}
-                    height={719}
+                    className="h-full w-full"
+                    width={600}
+                    height={690}
                     priority
                   />
                   <div className="bg-[#0B7373] flex justify-center p-2 text-white">
