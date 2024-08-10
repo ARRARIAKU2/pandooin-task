@@ -228,7 +228,7 @@ function Home() {
                         (gallery) => gallery.src
                       )}
                       className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
-                      children={""}
+                      children={<></>}
                       overlay={true}
                       overlayClassName=""
                       autoplay={true}
@@ -276,7 +276,7 @@ function Home() {
                       images={item.related_galleries.map(
                         (gallery) => gallery.src
                       )}
-                      children={""}
+                      children={<></>}
                       overlay={true}
                       overlayClassName=""
                       autoplay={true}
@@ -332,7 +332,7 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
-                        children={""}
+                        children={<></>}
                         overlay={true}
                         overlayClassName=""
                         autoplay={true}
@@ -373,7 +373,7 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
-                        children={""}
+                        children={<></>}
                         overlay={true}
                         overlayClassName=""
                         autoplay={true}
@@ -431,7 +431,7 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
-                    children={""}
+                    children={<></>}
                     overlay={true}
                     overlayClassName=""
                     autoplay={true}
@@ -461,7 +461,7 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
-                    children={""}
+                    children={<></>}
                     overlay={true}
                     overlayClassName=""
                     autoplay={true}
