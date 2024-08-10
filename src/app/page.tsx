@@ -228,6 +228,11 @@ function Home() {
                         (gallery) => gallery.src
                       )}
                       className="order-1 lg:order-1 w-full h-[300px] lg:w-full lg:h-full"
+                      children={""}
+                      overlay={true}
+                      overlayClassName=""
+                      autoplay={true}
+                      direction="up"
                     />
                   )}
                   <div className="h-full flex flex-col justify-between order-2 lg:order-1">
@@ -271,6 +276,11 @@ function Home() {
                       images={item.related_galleries.map(
                         (gallery) => gallery.src
                       )}
+                      children={""}
+                      overlay={true}
+                      overlayClassName=""
+                      autoplay={true}
+                      direction="up"
                       className="order-1 lg:order-2 w-full h-[300px] lg:w-full lg:h-full"
                     />
                   )}
@@ -322,6 +332,11 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
+                        children={""}
+                        overlay={true}
+                        overlayClassName=""
+                        autoplay={true}
+                        direction="up"
                         className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
                       />
                     )}
@@ -358,6 +373,11 @@ function Home() {
                         images={item.related_galleries.map(
                           (gallery) => gallery.src
                         )}
+                        children={""}
+                        overlay={true}
+                        overlayClassName=""
+                        autoplay={true}
+                        direction="up"
                         className="w-full h-[120px] xl:h-[200px] object-cover rounded-t-lg"
                       />
                     )}
@@ -411,6 +431,11 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
+                    children={""}
+                    overlay={true}
+                    overlayClassName=""
+                    autoplay={true}
+                    direction="up"
                     className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
                   />
                 )}
@@ -436,6 +461,11 @@ function Home() {
                     images={item.related_galleries.map(
                       (gallery) => gallery.src
                     )}
+                    children={""}
+                    overlay={true}
+                    overlayClassName=""
+                    autoplay={true}
+                    direction="up"
                     className="w-full h-[200px] xl:w-[400px] xl:h-[400px]"
                   />
                 )}
