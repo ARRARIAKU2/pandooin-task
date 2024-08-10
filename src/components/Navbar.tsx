@@ -21,7 +21,6 @@ function Navbar() {
             width={179}
             height={67}
             priority
-            href="/"
           />
         </Link>
         <div className="flex items-center lg:gap-4 2xl:gap-6 text-base text-black ml-[130px]">
@@ -94,7 +93,6 @@ function Navbar() {
                       width={179}
                       height={67}
                       priority
-                      href="/"
                     />
                   </Link>
                   <div className="mt-10 flex flex-col space-y-1">
